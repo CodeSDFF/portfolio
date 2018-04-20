@@ -3,7 +3,7 @@ var Messenger = function (el) {
 	var m = this;
 
 	m.init = function () {
-		m.codeletters = "&#*+%?£@§$";
+		m.codeletters = "<>{}()0101&i#*n+%t?£u@i§t$";
 		m.message = 0;
 		m.current_length = 0;
 		m.fadeBuffer = false;

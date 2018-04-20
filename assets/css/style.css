@@ -1,6 +1,6 @@
 /***************************
 ****************************
-		  Fonts
+	Fonts and Main styles
 ****************************
 ***************************/
 
@@ -10,7 +10,6 @@ body {
 	width: 100%;
 	padding: 0;
 	margin: 0 auto;
-	background-image: radial-gradient(circle, rgb(0, 34, 35), black);
 }
 
 .bgLight {
@@ -411,35 +410,6 @@ a:hover {
 
 /***************************
 ****************************
-    Media Queries  styles
-****************************
-***************************/
-
-.contact-section {
-	height: 100%;
-	padding-top: 150px;
-	text-align: center;
-	background: #eee;
-}
-
-
-/***************************
-****************************
-   Contact Form  styles
-****************************
-***************************/
-
-#success_message {
-	display: none;
-}
-
-#contact_form {
-	color: whitesmoke;
-}
-
-
-/***************************
-****************************
    Footer  styles
 ****************************
 ***************************/
@@ -448,13 +418,6 @@ a:hover {
 	color: #c7c7c7;
 	margin: auto;
 }
-
-
-/*
-.footer a {
-	color: orangered;
-}
-*/
 
 .footer {
 	padding: 2em;
@@ -468,8 +431,25 @@ a:hover {
 ***************************/
 
 @media (max-width: 767.98px) {
+	/*	slogan*/
 	.order {
-		order: 13;
+		order: 15;
+	}
+	#sloganSecond {
+		font-size: 2.5em;
+	}
+	#slogan {
+		font-size: 2.5em;
+	}
+	#working {
+		font-size: 1.3em;
+		margin-top: 3em;
+	}
+	#art {
+		margin-top: 8em;
+	}
+	#introSlogan {
+		margin-top: 0;
 	}
 	/*	education section*/
 	.timeline {
@@ -489,21 +469,5 @@ a:hover {
 	}
 	.timeline p {
 		padding-top: 1em;
-	}
-	#sloganSecond {
-		font-size: 2.5em;
-	}
-	#slogan {
-		font-size: 2.5em;
-	}
-	#working {
-		font-size: 1.3em;
-		margin-top: 3em;
-	}
-	#art {
-		margin-top: 8em;
-	}
-	#introSlogan {
-		margin-top: 0;
 	}
 }
