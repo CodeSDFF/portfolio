@@ -42,7 +42,8 @@ body {
 	fill: #000;
 }
 
-nav {
+nav,
+footer {
 	background-image: radial-gradient(circle, rgb(0, 34, 35), black);
 }
 
@@ -445,6 +446,26 @@ a:hover {
 	padding-top: 150px;
 	text-align: center;
 	background: #eee;
+}
+
+
+/***************************
+****************************
+    Media Queries  styles
+****************************
+***************************/
+
+.footer-text {
+	color: #c7c7c7;
+	margin: auto;
+}
+
+.footer a {
+	color: orangered;
+}
+
+.footer {
+	padding: 2em;
 }
 
 
