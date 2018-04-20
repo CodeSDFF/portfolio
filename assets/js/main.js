@@ -40,3 +40,5 @@ function fadeClass(fadeClassName) {
 	$("div.all").fadeOut(500);
 	$(selectedClass).fadeIn(500);
 }
+
+// contact form

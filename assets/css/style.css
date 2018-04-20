@@ -451,7 +451,22 @@ a:hover {
 
 /***************************
 ****************************
-    Media Queries  styles
+   Contact Form  styles
+****************************
+***************************/
+
+#success_message {
+	display: none;
+}
+
+#contact_form {
+	color: whitesmoke;
+}
+
+
+/***************************
+****************************
+   Footer  styles
 ****************************
 ***************************/
 
@@ -460,9 +475,11 @@ a:hover {
 	margin: auto;
 }
 
+/*
 .footer a {
 	color: orangered;
 }
+*/
 
 .footer {
 	padding: 2em;
