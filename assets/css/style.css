@@ -54,6 +54,11 @@ footer {
 	position: fixed;
 }
 
+.Social a {
+	margin: 0 0.4em;
+	font-size: 1.3em;
+}
+
 
 /***************************
 ****************************
